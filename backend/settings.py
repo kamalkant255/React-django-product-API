@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-uheo**u4y%so95llcp0*+9=$6p_hp_(1v4l1a_5#@vr^jqvuax'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://react-product-api.herokuapp.com/','localhost']
 
 
 # Application definition
